@@ -1,0 +1,38 @@
+.deploymentInfo{
+    display: flex;
+}
+.deploymentInfo__left{
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    background-color: darkgrey;
+    margin-top: -15px;
+    margin-left: 15px;
+    height: 100vh;
+    padding: 20px;
+    color: #053f4b;
+}
+.deploymentInfo__right{
+
+    flex :0.65;
+    display: flex;
+    
+    align-items: flex-start;
+   
+}
+.deploymentInfo__logs{
+   
+   
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 15px;
+    border: 3px solid gray;
+    color: white;
+    margin-left: 70px;
+    height: 350px;
+    background-color: black;
+    overflow: scroll;
+    scrollbar-width: none;
+    
+}
